@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: weatherapi-service
+spec:
+  selector:
+    app: weatherapi-pod
+  ports:
+  - port: 8080
+    targetPort: 80
+  type: LoadBalancer
