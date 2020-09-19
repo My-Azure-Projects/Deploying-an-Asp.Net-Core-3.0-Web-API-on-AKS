@@ -12,6 +12,7 @@
 
 5. Configure RBAC in Azure Container Registry (Acrpull) for the Service Principal
 
+
 ## Docker Commands
 
 ### Get docker version details
